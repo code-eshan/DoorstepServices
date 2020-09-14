@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/avlPlans"
+        android:title="Available Plans"
+        android:icon="@drawable/ic_avl_plans"/>
+
+    <item
+        android:id="@+id/activePlans"
+        android:title="Active Plans"
+        android:icon="@drawable/ic_active_plans"/>
+
+    <item
+        android:id="@+id/purHistory"
+        android:title="Purchase History"
+        android:icon="@drawable/ic_baseline_history_24"/>
+
+</menu>

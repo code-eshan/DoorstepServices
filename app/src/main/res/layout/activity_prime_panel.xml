@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,12 +8,29 @@
     tools:context=".PrimePanel">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ppTopNavBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/new_theme"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:minHeight="?attr/actionBarSize"
-        android:id="@+id/ppTopNavBar"
-        app:titleMarginStart="40dp"
-        app:logo="@drawable/ic_menu_24"/>
-</LinearLayout>
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_menu_24"
+        app:titleMarginStart="40dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bottom_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/toastStart"
+        app:itemTextColor="@color/toastStart"
+        app:menu="@menu/bottom_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
