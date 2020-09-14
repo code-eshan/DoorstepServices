@@ -22,4 +22,16 @@
     <color name="SilverOne">#70706F</color>
     <color name="SilverTwo">#8E8D8D</color>
     <color name="SilverThree">#B3B6B5</color>
+
+    <color name="GoldOne">#D5B310</color>
+    <color name="GoldTwo">#D6AB38</color>
+    <color name="GoldThree">#B8A76D</color>
+
+    <color name="DiamondOne">#5EBBD3</color>
+    <color name="DiamondTwo">#92DFF3</color>
+    <color name="DiamondThree">#B7E9F7</color>
+
+    <color name="PlatinumOne">#D9D8D6</color>
+    <color name="PlatinumTwo">#E5E4E2</color>
+    <color name="PlatinumThree">#F1F0ED</color>
 </resources>

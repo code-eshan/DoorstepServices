@@ -48,6 +48,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
                 android:id="@+id/silverCard"
                 android:layout_marginTop="20dp"
                 >
@@ -66,12 +67,12 @@
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
-                        android:textStyle="normal"></TextView>
+                        android:textStyle="normal" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Validity : 6 months"
+                        android:text="Validity : 3 months"
                         android:layout_marginTop="25dp"
                         android:gravity="center|bottom">
                     </TextView>
@@ -116,28 +117,29 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:id="@+id/silverCard"
+                android:id="@+id/goldCard"
+                app:cardCornerRadius="20dp"
                 android:layout_marginTop="20dp"
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/silver_card"
+                    android:background="@drawable/gold_card"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Silver"
+                        android:text="Gold"
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
-                        android:textStyle="normal"></TextView>
+                        android:textStyle="normal" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -149,7 +151,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Price : ₹299"
+                        android:text="Price : ₹499"
                         android:gravity="center|bottom">
                     </TextView>
                 </LinearLayout>
@@ -186,17 +188,18 @@
             </LinearLayout>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="160dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:id="@+id/silverCard"
+                android:id="@+id/diamondCard"
+                app:cardCornerRadius="20dp"
                 android:layout_marginTop="20dp"
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/silver_card"
+                    android:background="@drawable/diamond_card"
                     android:orientation="vertical">
 
                     <TextView
@@ -207,19 +210,19 @@
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
-                        android:textStyle="normal"></TextView>
+                        android:textStyle="normal" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Validity : 6 months"
+                        android:text="Validity : 12 months"
                         android:layout_marginTop="25dp"
                         android:gravity="center|bottom">
                     </TextView>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Price : ₹299"
+                        android:text="Price : ₹949"
                         android:gravity="center|bottom">
                     </TextView>
                 </LinearLayout>
@@ -256,17 +259,18 @@
             </LinearLayout>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="190dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:id="@+id/silverCard"
+                android:id="@+id/platinumCard"
+                app:cardCornerRadius="20dp"
                 android:layout_marginTop="20dp"
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/silver_card"
+                    android:background="@drawable/platinum_card"
                     android:orientation="vertical">
 
                     <TextView
@@ -277,19 +281,19 @@
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
-                        android:textStyle="normal"></TextView>
+                        android:textStyle="normal" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Validity : 6 months"
+                        android:text="Validity : 60 months"
                         android:layout_marginTop="25dp"
                         android:gravity="center|bottom">
                     </TextView>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Price : ₹299"
+                        android:text="Price : ₹3999"
                         android:gravity="center|bottom">
                     </TextView>
                 </LinearLayout>
@@ -301,7 +305,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp">
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp">
                 <Button
                     android:layout_width="150dp"
                     android:layout_height="30dp"
