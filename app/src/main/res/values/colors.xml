@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#8143E8</color>
-    <color name="colorPrimaryDark">#4E74E6</color>
-    <color name="colorAccent">#7E82DD</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
 
     <color name="black_overlay">#66000000</color>
 
@@ -18,4 +18,8 @@
 
     <color name="toastErrorStart">#E06767</color>
     <color name="toastErrorStop">#D81F1F</color>
+
+    <color name="SilverOne">#70706F</color>
+    <color name="SilverTwo">#8E8D8D</color>
+    <color name="SilverThree">#B3B6B5</color>
 </resources>
