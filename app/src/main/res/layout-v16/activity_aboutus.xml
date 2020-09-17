@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutus">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ppTopNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/new_theme"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:logo="@drawable/ic_menu_24"
+        app:titleMarginStart="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:justificationMode="inter_word"
+            android:text="Doorstep Services is an IT company, operated from the heart of Rajasthan, Kota. Deals in Manufacturing, Developing and Service sector. Major field of our work are Artificial Intelligence, Internet of Things(IOT), Image Processing, Machine Learning, IOS and Android Development, Software Development, Digital Marketing and Web Development."
+            android:textColor="@color/newCenter"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
