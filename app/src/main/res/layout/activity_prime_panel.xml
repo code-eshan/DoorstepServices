@@ -145,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Validity : 6 months"
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="55dp"
                         android:gravity="center|bottom">
                     </TextView>
                     <TextView
@@ -206,7 +206,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Silver"
+                        android:text="Diamond"
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
@@ -216,7 +216,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Validity : 12 months"
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="85dp"
                         android:gravity="center|bottom">
                     </TextView>
                     <TextView
@@ -277,7 +277,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Silver"
+                        android:text="Platinum"
                         android:textAllCaps="true"
                         android:textColor="#000000"
                         android:textSize="24sp"
@@ -287,7 +287,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Validity : 60 months"
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="115dp"
                         android:gravity="center|bottom">
                     </TextView>
                     <TextView
