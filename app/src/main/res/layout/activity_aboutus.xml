@@ -19,12 +19,14 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
 
             <TextView
@@ -57,55 +59,88 @@
                 android:textSize="16sp"
                 android:layout_marginBottom="10dp"/>
 
-                <Button
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:drawableRight="@drawable/email"
+                android:drawableTint="@color/toastStart"
+                android:background="@drawable/bottom_nav"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="left|center"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:drawableEnd="@drawable/email" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Visit our website"
+                android:drawableRight="@drawable/web"
+                android:background="@drawable/bottom_nav"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="10dp"
+                android:drawableTint="@color/toastStart"
+                android:paddingLeft="10dp"
+                android:gravity="left|center"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Our Other Applications"
+                android:background="@drawable/bottom_nav"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:gravity="top|left"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Email"
-                    android:drawableRight="@drawable/email"
-                    android:drawableTint="@color/toastStart"
-                    android:background="@drawable/bottom_nav"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:textColor="#FFFFFF"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="10dp"
-                    android:gravity="left|center"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="10dp"
-                    android:drawableEnd="@drawable/email" />
+                    android:gravity="center"
+                    >
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Visit our website"
-                    android:drawableRight="@drawable/web"
-                    android:background="@drawable/bottom_nav"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:textColor="#FFFFFF"
-                    android:paddingRight="10dp"
-                    android:drawableTint="@color/toastStart"
-                    android:paddingLeft="10dp"
-                    android:gravity="left|center"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="10dp"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/facebook"
+                        android:backgroundTint="#FFFFFF"
+                        android:tint="@color/newLeft"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/instagram"
+                        android:backgroundTint="#FFFFFF"
+                        android:tint="@color/newLeft"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/linkedin"
+                        android:backgroundTint="#FFFFFF"
+                        android:tint="@color/newLeft"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="Our Other Applications"
-                    android:background="@drawable/bottom_nav"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:textColor="#FFFFFF"
-                    android:paddingRight="10dp"
-                    android:drawableTint="@color/toastStart"
-                    android:paddingLeft="10dp"
-                    android:gravity="top|center"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="10dp"/>
+                </LinearLayout>
 
-
+            </LinearLayout>
 
         </LinearLayout>
 

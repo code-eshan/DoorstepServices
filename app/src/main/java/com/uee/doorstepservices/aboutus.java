@@ -17,8 +17,8 @@ public class aboutus extends AppCompatActivity {
         toolbar = (Toolbar)findViewById(R.id.ppTopNavBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("About Us");
-    }
 
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu,menu);
