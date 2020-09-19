@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_bookings"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/ic_transaction"
+            android:title="Transactions" />
+        <item
+            android:id="@+id/nav_purchasedIT"
+            android:icon="@drawable/ic_purchased_it"
+            android:title="Purchased IT Products" />
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_prime"
+            android:icon="@drawable/ic_primemembership"
+            android:title="Prime Membership" />
+        <item
+            android:id="@+id/nav_annual"
+            android:icon="@drawable/ic_annualsub"
+            android:title="Annual Subscriptions" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_servicepartners"
+            android:icon="@drawable/ic_servicepartner"
+            android:title="Become Our Service Partner" />
+        <item
+            android:id="@+id/nav_enquiry"
+            android:icon="@drawable/ic_enquiry"
+            android:title="Franchise Enquiry" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign Out" />
+    </group>
+</menu>
