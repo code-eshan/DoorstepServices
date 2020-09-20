@@ -160,6 +160,8 @@
         android:id="@+id/navigation_drawer"
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/sidemenu"
-        android:layout_gravity="start"/>
+        android:layout_gravity="start"
+        app:itemIconTint="@drawable/drawer_item_color"
+        app:itemTextColor="@drawable/drawer_item_color"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

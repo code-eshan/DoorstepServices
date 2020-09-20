@@ -56,6 +56,8 @@ public class PrimePanel extends AppCompatActivity implements NavigationView.OnNa
 
         navigationView.setNavigationItemSelectedListener(this);
 
+        navigationView.getMenu().getItem(5).setChecked(true);
+
     }
 
     @Override

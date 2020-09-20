@@ -58,6 +58,8 @@ public class annual_plans extends AppCompatActivity implements NavigationView.On
 
         navigationView.setNavigationItemSelectedListener(this);
 
+        navigationView.getMenu().getItem(6).setChecked(true);
+
     }
 
     @Override

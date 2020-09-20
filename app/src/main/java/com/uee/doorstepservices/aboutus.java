@@ -39,6 +39,8 @@ public class aboutus extends AppCompatActivity implements NavigationView.OnNavig
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+
+
     }
 
     @Override
@@ -57,6 +59,8 @@ public class aboutus extends AppCompatActivity implements NavigationView.OnNavig
         navigationView = (NavigationView)findViewById(R.id.navigation_drawer);
 
         navigationView.setNavigationItemSelectedListener(this);
+
+        navigationView.getMenu().getItem(7).setChecked(true);
 
     }
 

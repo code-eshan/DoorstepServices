@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toolbar = (Toolbar)findViewById(R.id.ppTopNavBar);
 
         navigationView.setNavigationItemSelectedListener(this);
+
+        navigationView.getMenu().getItem(0).setChecked(true);
     }
 
     @Override
