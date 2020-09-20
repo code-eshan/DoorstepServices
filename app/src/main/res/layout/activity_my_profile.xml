@@ -23,18 +23,6 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
             />
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavBar"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="0dp"
-            android:background="@drawable/bottom_nav"
-            app:itemIconTint="@color/toastStart"
-            app:itemTextColor="@color/toastStart"
-            app:menu="@menu/bottom_menu" />
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,6 +44,7 @@
                     app:cardCornerRadius="20dp"
                     android:layout_marginTop="20dp"
                     android:id="@+id/silverCard"
+                    android:layout_marginBottom="20dp"
                     >
 
                     <LinearLayout
@@ -189,7 +178,7 @@
                     <Button
                         android:layout_width="150dp"
                         android:layout_height="30dp"
-                        android:text="Show Benefits"
+                        android:text="Update"
                         android:backgroundTint="#D63939"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
@@ -203,7 +192,7 @@
                         <Button
                             android:layout_width="150dp"
                             android:layout_height="30dp"
-                            android:text="Get Prime"
+                            android:text="Load Credits"
                             android:backgroundTint="#D63939"
                             android:textColor="#FFFF"
                             android:background="@drawable/round_button"
