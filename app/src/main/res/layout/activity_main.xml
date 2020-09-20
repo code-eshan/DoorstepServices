@@ -19,7 +19,7 @@
             android:background="@drawable/new_theme"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
-            app:titleMarginStart="40dp" />
+            />
 
     </RelativeLayout>
 

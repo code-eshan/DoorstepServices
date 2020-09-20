@@ -93,6 +93,11 @@ public class annual_plans extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(getApplicationContext(),"Annual Subscriptions Selected",Toast.LENGTH_SHORT).show();
                 drawer.closeDrawer(GravityCompat.START);
                 break;
+            case R.id.nav_myprofile:
+                Toast.makeText(getApplicationContext(),"My Profile Selected",Toast.LENGTH_SHORT).show();
+                intent = new Intent(annual_plans.this,my_profile.class);
+                startActivity(intent);
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);

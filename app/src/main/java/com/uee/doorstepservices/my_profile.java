@@ -10,25 +10,31 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class my_profile extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final String TAG="Main Activity";
+    private static final String TAG="Profile Activity";
 
     private DrawerLayout drawer;
     private NavigationView navigationView;
-    private Toolbar toolbar;
+
+    Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_my_profile);
+
+        toolbar = (Toolbar)findViewById(R.id.ppTopNavBar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("My Profile");
 
         initViews();
-        setSupportActionBar(toolbar);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,drawer,toolbar,R.string.drawer_open,R.string.drawer_close);
         drawer.addDrawerListener(toggle);
@@ -45,14 +51,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void initViews() {
+
         Log.d(TAG, "initViews: started");
         drawer = (DrawerLayout)findViewById(R.id.drawer);
         navigationView = (NavigationView)findViewById(R.id.navigation_drawer);
-        toolbar = (Toolbar)findViewById(R.id.ppTopNavBar);
 
         navigationView.setNavigationItemSelectedListener(this);
 
-        navigationView.getMenu().getItem(0).setChecked(true);
+        navigationView.getMenu().getItem(4).setChecked(true);
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
     }
 
     @Override
@@ -68,23 +82,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_aboutus:
                 Toast.makeText(getApplicationContext(),"About Us Selected",Toast.LENGTH_SHORT).show();
-                intent = new Intent(MainActivity.this,aboutus.class);
+                intent = new Intent(my_profile.this,aboutus.class);
                 startActivity(intent);
                 break;
             case R.id.nav_prime:
                 Toast.makeText(getApplicationContext(),"Prime Panel Selected",Toast.LENGTH_SHORT).show();
-                intent = new Intent(MainActivity.this,PrimePanel.class);
+                intent = new Intent(my_profile.this,PrimePanel.class);
                 startActivity(intent);
                 break;
             case R.id.nav_annual:
                 Toast.makeText(getApplicationContext(),"Annual Subscriptions Selected",Toast.LENGTH_SHORT).show();
-                intent = new Intent(MainActivity.this,annual_plans.class);
+                intent = new Intent(my_profile.this,annual_plans.class);
                 startActivity(intent);
                 break;
             case R.id.nav_myprofile:
                 Toast.makeText(getApplicationContext(),"My Profile Selected",Toast.LENGTH_SHORT).show();
-                intent = new Intent(MainActivity.this,my_profile.class);
-                startActivity(intent);
+                drawer.closeDrawer(GravityCompat.START);
                 break;
         }
 

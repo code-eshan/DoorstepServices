@@ -91,6 +91,11 @@ public class PrimePanel extends AppCompatActivity implements NavigationView.OnNa
                 intent = new Intent(PrimePanel.this,annual_plans.class);
                 startActivity(intent);
                 break;
+            case R.id.nav_myprofile:
+                Toast.makeText(getApplicationContext(),"My Profile Selected",Toast.LENGTH_SHORT).show();
+                intent = new Intent(PrimePanel.this,my_profile.class);
+                startActivity(intent);
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);
