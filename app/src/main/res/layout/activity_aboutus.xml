@@ -1,151 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".aboutus">
+    tools:context=".aboutus"
+    tools:openDrawer="start"
+    android:id="@+id/drawer">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/ppTopNavBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/new_theme"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:logo="@drawable/ic_menu_24"
-        app:titleMarginStart="40dp" />
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ppTopNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_theme"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            />
+
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:justificationMode="inter_word"
-                android:text="Doorstep Services is an IT company, operated from the heart of Rajasthan, Kota. Deals in Manufacturing, Developing and Service sector. Major field of our work are Artificial Intelligence, Internet of Things(IOT), Image Processing, Machine Learning, IOS and Android Development, Software Development, Digital Marketing and Web Development."
-                android:textColor="@color/newCenter"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Contact Us / Book"
-                android:drawableRight="@drawable/call"
-                android:background="@drawable/bottom_nav"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:drawableTint="@color/toastStart"
-                android:textColor="#FFFFFF"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                android:gravity="left|center"
-                android:textSize="16sp"
-                android:layout_marginBottom="10dp"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Email"
-                android:drawableRight="@drawable/email"
-                android:drawableTint="@color/toastStart"
-                android:background="@drawable/bottom_nav"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:textColor="#FFFFFF"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                android:gravity="left|center"
-                android:textSize="16sp"
-                android:layout_marginBottom="10dp"
-                android:drawableEnd="@drawable/email" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Visit our website"
-                android:drawableRight="@drawable/web"
-                android:background="@drawable/bottom_nav"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:textColor="#FFFFFF"
-                android:paddingRight="10dp"
-                android:drawableTint="@color/toastStart"
-                android:paddingLeft="10dp"
-                android:gravity="left|center"
-                android:textSize="16sp"
-                android:layout_marginBottom="10dp"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="Our Other Applications"
-                android:background="@drawable/bottom_nav"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:textColor="#FFFFFF"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:gravity="top|left"
-                android:textSize="16sp"
-                android:layout_marginBottom="10dp"/>
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                >
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:justificationMode="inter_word"
+                    android:text="Doorstep Services is an IT company, operated from the heart of Rajasthan, Kota. Deals in Manufacturing, Developing and Service sector. Major field of our work are Artificial Intelligence, Internet of Things(IOT), Image Processing, Machine Learning, IOS and Android Development, Software Development, Digital Marketing and Web Development."
+                    android:textColor="@color/newCenter"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Contact Us / Book"
+                    android:drawableRight="@drawable/call"
+                    android:background="@drawable/bottom_nav"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:drawableTint="@color/toastStart"
+                    android:textColor="#FFFFFF"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email"
+                    android:drawableRight="@drawable/email"
+                    android:drawableTint="@color/toastStart"
+                    android:background="@drawable/bottom_nav"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#FFFFFF"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableEnd="@drawable/email" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Visit our website"
+                    android:drawableRight="@drawable/web"
+                    android:background="@drawable/bottom_nav"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#FFFFFF"
+                    android:paddingRight="10dp"
+                    android:drawableTint="@color/toastStart"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="Our Other Applications"
+                    android:background="@drawable/bottom_nav"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#FFFFFF"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:gravity="top|left"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
+                    android:orientation="horizontal"
                     >
 
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/facebook"
-                        android:backgroundTint="#FFFFFF"
-                        android:tint="@color/newLeft"/>
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/instagram"
-                        android:backgroundTint="#FFFFFF"
-                        android:tint="@color/newLeft"/>
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/linkedin"
-                        android:backgroundTint="#FFFFFF"
-                        android:tint="@color/newLeft"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        >
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/facebook"
+                            android:backgroundTint="#FFFFFF"
+                            android:tint="@color/newLeft"/>
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/instagram"
+                            android:backgroundTint="#FFFFFF"
+                            android:tint="@color/newLeft"/>
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/linkedin"
+                            android:backgroundTint="#FFFFFF"
+                            android:tint="@color/newLeft"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+        </ScrollView>
 
-    </ScrollView>
+    </LinearLayout>
 
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_drawer"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity="start"/>
 
-
-</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

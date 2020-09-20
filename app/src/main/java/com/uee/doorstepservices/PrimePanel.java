@@ -39,6 +39,15 @@ public class PrimePanel extends AppCompatActivity implements NavigationView.OnNa
         toggle.syncState();
     }
 
+    @Override
+    public void onBackPressed() {
+
+        if(drawer.isDrawerOpen(GravityCompat.START)){
+            drawer.closeDrawer(GravityCompat.START);
+        }else
+            super.onBackPressed();
+    }
+
     private void initViews() {
 
         Log.d(TAG, "initViews: started");
