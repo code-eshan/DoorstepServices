@@ -95,27 +95,34 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
                     <Button
                         android:layout_width="150dp"
                         android:layout_height="30dp"
-                        android:text="Show Benefits"
-                        android:backgroundTint="#D63939"
-                        android:textColor="#FFFF"
-                        android:background="@drawable/round_button"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="50dp"
-                        >
-                    </Button>
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="30dp"
-                        android:text="Get Prime"
+                        android:text="Show benefits"
                         android:backgroundTint="#D63939"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         >
                     </Button>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:text="Get Prime"
+                            android:backgroundTint="#D63939"
+                            android:textColor="#FFFF"
+                            android:background="@drawable/round_button"
+                            >
+                        </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -167,27 +174,34 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
                     <Button
                         android:layout_width="150dp"
                         android:layout_height="30dp"
-                        android:text="Show Benefits"
-                        android:backgroundTint="#D63939"
-                        android:textColor="#FFFF"
-                        android:background="@drawable/round_button"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="50dp"
-                        >
-                    </Button>
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="30dp"
-                        android:text="Get Prime"
+                        android:text="Show benefits"
                         android:backgroundTint="#D63939"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         >
                     </Button>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:text="Get Prime"
+                            android:backgroundTint="#D63939"
+                            android:textColor="#FFFF"
+                            android:background="@drawable/round_button"
+                            >
+                        </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
                 <androidx.cardview.widget.CardView
@@ -238,27 +252,34 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
                     <Button
                         android:layout_width="150dp"
                         android:layout_height="30dp"
-                        android:text="Show Benefits"
-                        android:backgroundTint="#D63939"
-                        android:textColor="#FFFF"
-                        android:background="@drawable/round_button"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="50dp"
-                        >
-                    </Button>
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="30dp"
-                        android:text="Get Prime"
+                        android:text="Show benefits"
                         android:backgroundTint="#D63939"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         >
                     </Button>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:text="Get Prime"
+                            android:backgroundTint="#D63939"
+                            android:textColor="#FFFF"
+                            android:background="@drawable/round_button"
+                            >
+                        </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
                 <androidx.cardview.widget.CardView
@@ -309,28 +330,34 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="20dp">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
                     <Button
                         android:layout_width="150dp"
                         android:layout_height="30dp"
-                        android:text="Show Benefits"
-                        android:backgroundTint="#D63939"
-                        android:textColor="#FFFF"
-                        android:background="@drawable/round_button"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="50dp"
-                        >
-                    </Button>
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="30dp"
-                        android:text="Get Prime"
+                        android:text="Show benefits"
                         android:backgroundTint="#D63939"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         >
                     </Button>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:text="Get Prime"
+                            android:backgroundTint="#D63939"
+                            android:textColor="#FFFF"
+                            android:background="@drawable/round_button"
+                            >
+                        </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -343,7 +370,7 @@
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/navigation_drawer"
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/sidemenu"

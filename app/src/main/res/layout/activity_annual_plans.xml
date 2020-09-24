@@ -51,16 +51,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="175dp"
                         android:layout_height="180dp"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
                         app:cardCornerRadius="20dp"
                         android:id="@+id/basicHomeMaintenance"
-                        android:layout_marginTop="20dp"
+
                         >
                         <ImageView
                             android:layout_width="match_parent"
@@ -105,15 +105,17 @@
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:layout_marginRight="20dp">
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="175dp"
                         android:layout_height="180dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
                         app:cardCornerRadius="20dp"
                         android:id="@+id/standardHomeMaintenance"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginEnd="20dp"
                         >
 
                         <ImageView
@@ -159,6 +161,7 @@
                                 android:textStyle="bold"></TextView>
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -174,9 +177,14 @@
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginRight="35dp"
                         >
                     </Button>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:layout_marginRight="28dp">
                     <Button
                         android:layout_width="160dp"
                         android:layout_height="30dp"
@@ -186,8 +194,9 @@
                         android:background="@drawable/round_button"
                         >
                     </Button>
-
+                    </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -200,9 +209,13 @@
                         android:backgroundTint="@color/gradStart"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
-                        android:layout_marginRight="110dp"
                         >
                     </Button>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:layout_marginRight="65dp">
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
@@ -212,6 +225,7 @@
                         android:background="@drawable/round_button"
                         >
                     </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -222,7 +236,7 @@
                     android:layout_marginRight="20dp"
                     app:cardCornerRadius="20dp"
                     android:id="@+id/basicOfficePack"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="50dp"
                     >
 
                     <ImageView
@@ -280,9 +294,14 @@
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
                         android:layout_marginLeft="30dp"
-                        android:layout_marginRight="50dp"
                         >
                     </Button>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:layout_marginRight="30dp">
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
@@ -290,9 +309,9 @@
                         android:backgroundTint="@color/gradStart"
                         android:textColor="#FFFF"
                         android:background="@drawable/round_button"
-                        android:layout_marginLeft="68dp"
                         >
                     </Button>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -303,7 +322,7 @@
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/navigation_drawer"
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/sidemenu"
